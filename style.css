@@ -64,7 +64,7 @@ a:hover { text-decoration: underline; }
   /* box sits lower right, over open sea: the bird (centre, head at ~55%)
      and its far wing (rising to the top right) stay in view */
   justify-items: end; align-items: end;
-  padding-right: max(24px, 6vw); padding-bottom: 9vh;
+  padding-right: max(20px, 3vw); padding-bottom: 17vh;
   background:
     linear-gradient(rgba(10,14,12,.30), rgba(10,14,12,.06) 35%, rgba(10,14,12,.20)),
     url("assets/hero.jpg") 60% 58%/cover no-repeat,
