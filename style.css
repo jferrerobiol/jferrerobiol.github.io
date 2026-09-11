@@ -41,12 +41,12 @@ a:hover { text-decoration: underline; }
 
 /* ── hero (home) ─────────────────────────────────────────────────── */
 .hero {
-  min-height: 46vh;
+  min-height: 58vh;
   display: grid; place-items: center;
   padding: 120px 24px 60px;
   background:
-    linear-gradient(rgba(10,14,12,.55), rgba(10,14,12,.75)),
-    url("assets/hero.jpg") center/cover no-repeat,
+    linear-gradient(rgba(10,14,12,.28), rgba(10,14,12,.10) 40%, rgba(15,20,18,.55)),
+    url("assets/hero.jpg") center 58%/cover no-repeat,
     radial-gradient(120% 90% at 30% 20%, #1e3a2f 0%, #0f1412 60%);
 }
 .hero .panel {
