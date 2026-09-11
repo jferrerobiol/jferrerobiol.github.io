@@ -4,39 +4,59 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Joan Ferrer Obiol</title>
-<style>
-  :root { --ink:#1a1a1a; --muted:#5a5a5a; --accent:#257A5C; --bg:#fdfdfc; }
-  body { margin:0; background:var(--bg); color:var(--ink);
-         font:17px/1.6 Georgia,"Times New Roman",serif; }
-  .wrap { max-width:720px; margin:0 auto; padding:14vh 24px 10vh; }
-  h1 { font-size:2.1rem; margin:0 0 .3em; letter-spacing:-.01em; }
-  .role { color:var(--muted); font-size:1.05rem; margin:0 0 2em; }
-  p { margin:0 0 1.2em; }
-  a { color:var(--accent); }
-  .links { margin-top:2.5em; font-size:.95rem; }
-  .links a { margin-right:1.4em; white-space:nowrap; }
-  .soon { color:var(--muted); font-size:.9rem; margin-top:3em; font-style:italic; }
-</style>
+<meta name="description" content="Joan Ferrer Obiol — evolutionary biologist. Population genomics and phylogenomics of birds, with a particular interest in seabirds, local adaptation and the genetic basis of migratory behaviour.">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="wrap">
-  <h1>Joan Ferrer Obiol</h1>
-  <p class="role">Evolutionary biologist &middot; <!-- your position and institution --></p>
 
-  <p>I study how birds evolve, and how the genome shapes the way they move.
-  My work combines population and functional genomics with fieldwork to trace
-  variation from the genome to the phenotypes it produces, with a focus on
-  migration.</p>
+<nav class="nav">
+  <a class="brand" href="index.html">Joan Ferrer Obiol</a>
+  <ul>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="research.html">Research</a></li>
+    <li><a href="publications.html">Publications</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
 
-  <div class="links">
-    <a href="mailto:joan.ferrer.obiol@gmail.com">Email</a>
-    <a href="https://scholar.google.com/citations?user=YOUR_ID">Google&nbsp;Scholar</a>
-    <a href="https://orcid.org/YOUR-ORCID">ORCID</a>
-    <a href="https://github.com/jferrerobiol">GitHub</a>
-    <a href="https://bsky.app/profile/joanferrerobiol.bsky.social">Bluesky</a>
+<header class="hero">
+  <div class="panel">
+    <h1>Joan Ferrer Obiol</h1>
+    <p class="role">Evolutionary biologist &middot; Bird Genoscape Project, Colorado State University</p>
+    <p class="tag">Population genomics and phylogenomics of birds: how they evolved, how they adapt, and what makes them migrate.</p>
   </div>
+</header>
 
-  <p class="soon">Research and publications pages coming shortly.</p>
-</div>
+<main class="wrap">
+  <section class="about">
+    <!-- Replace assets/joan.jpg with a headshot; a grey circle shows until then. -->
+    <img src="assets/joan.jpg" alt="Joan Ferrer Obiol" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'photo'}))">
+    <div>
+      <p>I use population genomics and phylogenomics to study the evolutionary history of birds, with a particular interest in seabirds. I am especially interested in local adaptation and the genetic basis of complex traits such as migratory behaviour, combining genomics with ecological data.</p>
+      <p>I am a postdoctoral research associate in the <a href="https://www.birdgenoscape.org/">Bird Genoscape Project</a> at Colorado State University, working with Kristen Ruegg on the genomics of local adaptation and migration in North American birds. Before that I was a postdoc at the University of Milan with Diego Rubolini, and I did my PhD at the University of Barcelona with Marta Riutort and Julio Rozas on the evolutionary history of shearwaters.</p>
+      <p>Most of my work starts in the field. I hold bird ringing licences in Spain and the USA, and I spent fourteen months as a zoological field assistant on the Kerguelen Islands.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <ul class="links">
+      <li><a href="mailto:joan.ferrer.obiol@gmail.com">Email</a></li>
+      <li><a href="https://scholar.google.com/citations?user=b0eXJ-oAAAAJ">Google&nbsp;Scholar</a></li>
+      <li><a href="https://orcid.org/0000-0002-1184-5434">ORCID</a></li>
+      <li><a href="https://github.com/jferrerobiol">GitHub</a></li>
+      <li><a href="https://bsky.app/profile/joanferrerobiol.bsky.social">Bluesky</a></li>
+    </ul>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="in">
+    <span>&copy; Joan Ferrer Obiol</span>
+    <a href="research.html">Research</a>
+    <a href="publications.html">Publications</a>
+    <a href="mailto:joan.ferrer.obiol@gmail.com">joan.ferrer.obiol@gmail.com</a>
+  </div>
+</footer>
+
 </body>
 </html>
