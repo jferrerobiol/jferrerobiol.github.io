@@ -41,7 +41,7 @@ a:hover { text-decoration: underline; }
 
 /* ── hero (home) ─────────────────────────────────────────────────── */
 .hero {
-  min-height: 78vh;
+  min-height: 46vh;
   display: grid; place-items: center;
   padding: 120px 24px 60px;
   background:
@@ -71,6 +71,21 @@ a:hover { text-decoration: underline; }
 
 /* ── content ─────────────────────────────────────────────────────── */
 .wrap { max-width: var(--max); margin: 0 auto; padding: 40px 24px 60px; }
+
+/* home blurb */
+.blurb { padding-top: 56px; }
+.blurb p { font-size: 1.22rem; line-height: 1.7; margin: 0 0 1.3em; max-width: 780px; }
+.blurb .more { font-size: 1rem; color: var(--muted); }
+
+/* contact */
+.contact { display: grid; grid-template-columns: 320px 1fr; gap: 48px; align-items: start; }
+.contact img { width: 320px; height: 320px; object-fit: cover; border-radius: 10px; background: var(--bg-2); }
+.contact p { margin: 0 0 1em; }
+.contact .links { margin-top: 18px; flex-direction: column; gap: 10px; }
+.contact .links a { font-size: 1.05rem; }
+
+/* coming soon */
+.soon { padding: 40px 0 80px; color: var(--muted); font-size: 1.15rem; max-width: 640px; }
 
 .about { display: grid; grid-template-columns: 180px 1fr; gap: 36px; align-items: start; }
 .about img, .about .photo {
@@ -128,4 +143,7 @@ a:hover { text-decoration: underline; }
   .page-head h1 { font-size: 2rem; }
   .about { grid-template-columns: 1fr; }
   .about img, .about .photo { width: 140px; height: 140px; }
+  .contact { grid-template-columns: 1fr; }
+  .contact img { width: 240px; height: 240px; }
+  .blurb p { font-size: 1.1rem; }
 }
