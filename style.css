@@ -72,6 +72,7 @@ a:hover { text-decoration: underline; }
 }
 .hero-full .panel.blurb {
   width: min(540px, 100%); text-align: left; padding: 32px 34px 26px;
+  border-radius: 14px;
   background: rgba(15,20,18,.40);
   border: 1px solid rgba(232,230,225,.14);
   backdrop-filter: blur(3px); -webkit-backdrop-filter: blur(3px);
