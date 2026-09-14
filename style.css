@@ -35,6 +35,13 @@ a:hover { text-decoration: underline; }
 }
 .nav .brand { color: var(--ink); font-weight: 300; font-size: 1.05rem; letter-spacing: .03em; }
 .nav .brand:hover { text-decoration: none; color: var(--accent); }
+/* language switch under the name */
+.nav .brandblock { display: flex; flex-direction: column; gap: 5px; }
+.nav .lang { display: flex; gap: 14px; font-size: 11px; letter-spacing: .08em; }
+.nav .lang a { color: var(--muted); display: inline-flex; align-items: center; gap: 6px; }
+.nav .lang a.on { color: var(--ink); }
+.nav .lang a:hover { color: var(--accent); text-decoration: none; }
+.nav .lang .flag { height: 11px; width: auto; display: block; border-radius: 1.5px; }
 .nav ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 26px; }
 .nav li a {
   color: var(--ink); font-size: .82rem; letter-spacing: .12em; text-transform: uppercase;
