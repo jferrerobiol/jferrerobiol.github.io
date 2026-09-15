@@ -118,9 +118,13 @@ a:hover { text-decoration: underline; }
 .contact .links { margin-top: 18px; flex-direction: column; gap: 10px; }
 .contact .links a { font-size: 1.05rem; }
 
+/* research page is wider than the others, with a large image column */
+.page-head.wide, .wrap.wide { max-width: 1240px; }
+.page-head.wide .lede { max-width: 820px; }
+
 /* research topics: image column + text column, Enbody-style */
-.topic { display: grid; grid-template-columns: 300px 1fr; gap: 44px; align-items: start;
-         padding: 52px 0; border-top: 1px solid var(--line); }
+.topic { display: grid; grid-template-columns: 560px 1fr; gap: 60px; align-items: start;
+         padding: 60px 0; border-top: 1px solid var(--line); }
 .topic:first-of-type { border-top: 0; padding-top: 16px; }
 .topic .fig { position: sticky; top: 90px; margin: 0; }
 .topic .fig img { width: 100%; height: auto; border-radius: 10px; display: block; }
@@ -147,9 +151,12 @@ a:hover { text-decoration: underline; }
 .topic.wide { grid-template-columns: 1fr; gap: 26px; }
 .topic.wide .fig { position: static; }
 .topic.wide .fig img { background: #fff; padding: 2.5%; border-radius: 12px; }
+@media (max-width: 1100px) {
+  .topic { grid-template-columns: 400px 1fr; gap: 40px; }
+}
 @media (max-width: 760px) {
   .topic { grid-template-columns: 1fr; gap: 20px; }
-  .topic .fig { position: static; max-width: 340px; }
+  .topic .fig { position: static; max-width: 420px; }
 }
 
 .topic { scroll-margin-top: 84px; }   /* anchors land below the fixed nav */
