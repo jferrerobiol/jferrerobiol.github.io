@@ -175,7 +175,7 @@ a:hover { text-decoration: underline; }
    (1400 x 1299) so that photo fills its box edge to edge; the three
    white-backed figures are fitted inside whole, and their margins are white
    on white */
-.study .card img { display: block; width: 100%; aspect-ratio: 1400 / 1299; object-fit: contain; border-radius: 10px;
+.study .card img { display: block; width: 100%; aspect-ratio: 1400 / 1297; object-fit: contain; border-radius: 10px;
                    background: #fff; transition: filter .2s ease; }
 .study .card:hover img { filter: brightness(.65); }
 @media (max-width: 760px) {
